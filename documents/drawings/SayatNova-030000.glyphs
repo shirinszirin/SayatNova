@@ -1,10 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"/caroncomb.alt",
-"ĺ"
-);
 date = "2023-01-09 21:34:34 +0000";
 familyName = SayatNova;
 fontMaster = (
@@ -1246,7 +1242,7 @@ unicode = 70;
 {
 color = 4;
 glyphname = G;
-lastChange = "2023-05-21 15:48:17 +0000";
+lastChange = "2023-05-22 20:49:51 +0000";
 layers = (
 {
 anchors = (
@@ -1273,43 +1269,43 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(569,276,l),
-(569,334,o),
-(530,361,o),
-(493,372,c),
-(500,380,l),
-(688,380,l),
-(696,372,l),
-(667,361,o),
-(651,349,o),
-(651,310,c),
-(651,90,l),
-(588,18,o),
-(511,-22,o),
-(382,-22,cs),
-(202,-22,o),
-(18,125,o),
-(15,370,cs),
-(12,584,o),
-(155,814,o),
-(387,814,cs),
-(511,814,o),
-(593,759,o),
-(649,694,c),
-(588,613,l),
-(573,617,l),
-(545,692,o),
-(469,761,o),
-(373,761,cs),
-(224,761,o),
-(112,551,o),
-(115,373,cs),
-(118,163,o),
-(267,33,o),
-(387,33,cs),
-(491,33,o),
 (545,78,o),
-(569,125,c)
+(491,33,o),
+(387,33,cs),
+(267,33,o),
+(118,163,o),
+(115,373,cs),
+(112,551,o),
+(224,761,o),
+(373,761,cs),
+(469,761,o),
+(545,692,o),
+(573,617,c),
+(588,613,l),
+(649,694,l),
+(593,759,o),
+(511,814,o),
+(387,814,cs),
+(155,814,o),
+(12,584,o),
+(15,370,cs),
+(18,125,o),
+(202,-22,o),
+(382,-22,cs),
+(511,-22,o),
+(588,18,o),
+(651,90,c),
+(651,310,l),
+(651,349,o),
+(667,361,o),
+(696,372,c),
+(688,380,l),
+(500,380,l),
+(493,372,l),
+(530,361,o),
+(569,334,o),
+(569,276,c),
+(569,125,l)
 );
 }
 );
@@ -1441,13 +1437,27 @@ width = 726;
 unicode = 7712;
 },
 {
-color = 6;
+color = 9;
 glyphname = Gstroke;
-lastChange = "2023-05-15 14:53:17 +0000";
+lastChange = "2023-05-22 20:52:16 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = G;
+},
+{
+closed = 1;
+nodes = (
+(427,190,l),
+(727,190,l),
+(727,245,l),
+(427,245,l)
+);
+}
+);
+width = 726;
 }
 );
 unicode = 484;
@@ -1538,13 +1548,27 @@ width = 760;
 unicode = 72;
 },
 {
-color = 6;
+color = 9;
 glyphname = Hbar;
-lastChange = "2023-05-15 14:53:19 +0000";
+lastChange = "2023-05-22 20:53:51 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = H;
+},
+{
+closed = 1;
+nodes = (
+(0,568,l),
+(761,568,l),
+(761,623,l),
+(0,623,l)
+);
+}
+);
+width = 760;
 }
 );
 unicode = 294;
@@ -1894,10 +1918,14 @@ unicode = 308;
 {
 color = 4;
 glyphname = K;
-lastChange = "2023-05-15 14:17:20 +0000";
+lastChange = "2023-05-22 20:55:26 +0000";
 layers = (
 {
 anchors = (
+{
+name = bottom2;
+pos = (303,0);
+},
 {
 name = top2;
 pos = (302,818);
@@ -1913,6 +1941,13 @@ pos = (233,8);
 },
 {
 pos = (198,792);
+},
+{
+pos = (325,10);
+},
+{
+angle = 90;
+pos = (302,233);
 }
 );
 layerId = m01;
@@ -2006,13 +2041,22 @@ width = 663;
 unicode = 488;
 },
 {
-color = 6;
+color = 9;
 glyphname = Kcommaaccent;
-lastChange = "2023-05-15 14:53:25 +0000";
+lastChange = "2023-05-22 20:55:54 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = K;
+},
+{
+pos = (230,-12);
+ref = commaaccentcomb;
+}
+);
+width = 663;
 }
 );
 unicode = 310;
@@ -2118,13 +2162,22 @@ width = 623;
 unicode = 317;
 },
 {
-color = 6;
+color = 9;
 glyphname = Lcommaaccent;
-lastChange = "2023-05-15 14:53:31 +0000";
+lastChange = "2023-05-22 20:56:22 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = L;
+},
+{
+pos = (254,0);
+ref = commaaccentcomb;
+}
+);
+width = 623;
 }
 );
 unicode = 315;
@@ -2405,13 +2458,22 @@ width = 761;
 unicode = 327;
 },
 {
-color = 6;
+color = 9;
 glyphname = Ncommaaccent;
-lastChange = "2023-05-15 14:53:35 +0000";
+lastChange = "2023-05-22 20:56:52 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (317,0);
+ref = commaaccentcomb;
+}
+);
+width = 761;
 }
 );
 unicode = 325;
@@ -2819,10 +2881,14 @@ unicode = 81;
 {
 color = 4;
 glyphname = R;
-lastChange = "2023-05-15 14:33:09 +0000";
+lastChange = "2023-05-22 20:58:17 +0000";
 layers = (
 {
 anchors = (
+{
+name = bottom2;
+pos = (343,0);
+},
 {
 name = top2;
 pos = (302,818);
@@ -2833,6 +2899,10 @@ guides = (
 angle = 90;
 locked = 1;
 pos = (600,571);
+},
+{
+angle = 90;
+pos = (302,621);
 }
 );
 layerId = m01;
@@ -2945,13 +3015,22 @@ width = 691;
 unicode = 344;
 },
 {
-color = 6;
+color = 9;
 glyphname = Rcommaaccent;
-lastChange = "2023-05-15 14:53:47 +0000";
+lastChange = "2023-05-22 20:58:27 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (270,-12);
+ref = commaaccentcomb;
+}
+);
+width = 691;
 }
 );
 unicode = 342;
@@ -5133,9 +5212,9 @@ width = 600;
 unicode = 240;
 },
 {
-color = 5;
+color = 6;
 glyphname = dcaron;
-lastChange = "2023-05-21 17:03:41 +0000";
+lastChange = "2023-05-22 20:48:19 +0000";
 layers = (
 {
 layerId = m01;
